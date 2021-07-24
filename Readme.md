@@ -30,4 +30,15 @@ elegir un nombre y crear
 
 abrir la carpeta del proyecto
 
-poner el comando git init ( si no tiene aún el repositorio en github)
+( si no tiene aún el repositorio en github)
+
+> git init
+> git add .
+> git commit -m ""
+> git remote add origin https://github.com/FabiSantos/coderhouse-github.git
+> git branch -M main
+> git push -u origin main
+
+si ya creaste el repo en github, no es necesario el gitinit
+git push -u origin main
+o solo git push
