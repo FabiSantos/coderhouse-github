@@ -21,3 +21,5 @@ comando git log les muestra el historial de los commit que hicieron copiar el id
 comando git checkout para ir una versión atrás
 comando git checkout (escribir el id del commit al que desean volver)
 comando git merge (escribir el nombre de la rama que quiero fusionar) para fusionar (juntar) varias ramas
+
+---
