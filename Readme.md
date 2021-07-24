@@ -23,3 +23,11 @@ comando git checkout (escribir el id del commit al que desean volver)
 comando git merge (escribir el nombre de la rama que quiero fusionar) para fusionar (juntar) varias ramas
 
 ---
+
+# en el github crear nuevo repositorio
+
+elegir un nombre y crear
+
+abrir la carpeta del proyecto
+
+poner el comando git init ( si no tiene aún el repositorio en github)
