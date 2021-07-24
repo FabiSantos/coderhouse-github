@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="keywords" content="desarrollo, web, diseño, portafolio, developer, maquetación, html, portfolio, webdesigner, prototyper, cv, curriculum" />
+    <meta name="description" content="Portafólio de Fabiane Santos - contactame" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <title>Mi Portafolio - contacto</title>
+  </head>
+
+  <body>
+    <h1>Déjame tus dados para contacto!</h1>
+    <form action="">
+      <fieldset>
+        <legend><strong>Informaciones</strong></legend>
+        <section>
+          <h3>Personal</h3>
+          <label for="nombre"> Nombre:</label>
+          <input type="text" name="nombre" />
+          <label for="apellido"> Apellido:</label>
+          <input type="text" name="apellido" />
+          <br /><br />
+          <label for="mail">Correo:</label>
+          <input type="email" name="mail" />
+          <br /><br />
+          <label for="telefono">Teléfono para contacto:</label>
+          <input type="tel" name="telefono" />
+          <br /><br />
+          <label for="fecha">Fecha de envío:</label>
+          <input type="date" name="fecha" />
+        </section>
+
+        <section>
+          <h3>Localización</h3>
+          <select name="paises">
+            <option value="1">Seleccione tu pais:</option>
+            <option value="2">Brasil</option>
+            <option value="3">Chile</option>
+            <option value="4">Otro</option>
+          </select>
+          <br /><br />
+          <input type="checkbox" name="acepta" value="1" />
+          <label for="acepta">Remoto temporalmente debido a pandemia</label>
+        </section>
+        <section>
+          <h3>Tipo de trabajo</h3>
+          <input type="radio" name="conjunto" value="opción 1" />
+          Contrato Indefinido
+          <input type="radio" name="conjunto" value="opción 2" />
+          Proyecto
+          <input type="radio" name="conjunto" value="opción 3" />
+          Otro
+        </section>
+
+        <section>
+          <label for="comentarios">Comentarios:</label><br />
+          <textarea name="comentarios" cols="60" rows="6"></textarea>
+        </section>
+      </fieldset>
+      <br />
+      <div id="botoes">
+        <input type="submit" value="Enviar formulario" class="btn espacio-btn" />
+        <input type="reset" value="Limpiar formulario" class="btn espacio-btn" />
+        <a href="./index.html" class="btn"> Volver a Home</a>
+      </div>
+    </form>
+  </body>
+</html>

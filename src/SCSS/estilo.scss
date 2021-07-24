@@ -1,0 +1,236 @@
+@import "cards";
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f7eef3;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  margin-top: 2%;
+  margin-left: 2%;
+  display: flex;
+  justify-content: left;
+  color: rgb(241, 77, 132);
+}
+
+h2 {
+  color: rgb(114, 47, 97);
+  padding-bottom: 4%;
+  padding-left: 4%;
+}
+
+h3 {
+  padding-bottom: 1.5%;
+}
+
+p {
+  padding: 2%;
+  color: rgb(102, 92, 102);
+}
+
+a,
+button a {
+  text-decoration: none;
+}
+
+ul ul {
+  position: absolute;
+  display: flex;
+}
+
+ul ul li:hover {
+  color: rgb(102, 168, 168);
+  background-color: rgb(63, 60, 60);
+  border-radius: 4px;
+}
+
+ul ul li {
+  list-style: none;
+  font-size: 12px;
+  font-weight: normal;
+  padding-right: 15px;
+  color: rgb(212, 94, 203);
+}
+
+#botoes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+.titulo-sobremi {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.contenedor-img-sobremi {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contenedor-img-sobremi img {
+  border: rgb(119, 177, 231) solid 5px;
+  margin-bottom: 2%;
+}
+
+.margin-btn-sobremi {
+  margin-bottom: 4%;
+}
+
+.btn {
+  background-color: rgb(204, 205, 223);
+  color: rgb(114, 47, 97);
+  border-radius: 10px;
+  border: solid rgb(245, 108, 131) 3px;
+  padding: 6px;
+
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.btn:hover {
+  border: solid rgb(202, 128, 202);
+}
+
+input,
+select,
+textarea {
+  border-radius: 5px;
+  border: rgb(202, 128, 202) 3px solid;
+  outline: none;
+  color: rgb(203, 233, 238);
+  background-color: transparent;
+}
+form {
+  margin: 1% 2% 2% 2%;
+  padding: 2%;
+}
+
+fieldset {
+  border-radius: 10px;
+  border: rgb(134, 128, 133) solid 3px;
+  color: rgb(116, 91, 112);
+}
+
+legend {
+  padding: 12px;
+}
+fieldset section {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 2%;
+}
+
+/* proyectos */
+table,
+thead th,
+tr td {
+  margin: 4% 0 2% 30%;
+  align-items: center;
+  border-radius: 4px;
+  border: rgb(243, 186, 231) solid 3px;
+}
+
+tr td:hover {
+  background-color: violet;
+}
+
+.btn-derecha {
+  margin-left: 70%;
+}
+
+.cajaProyectos {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.tablaGrid {
+  display: grid;
+  width: 500px;
+  height: 300px;
+  border: solid 3px rgb(42, 190, 216);
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+  grid-template-rows: auto auto;
+  grid-row-gap: 10px;
+
+  justify-content: center;
+}
+
+.margingrid {
+  margin-top: 50px;
+}
+footer p {
+  color: rgb(65, 28, 55);
+}
+
+@media (max-width: 480px) {
+  nav {
+    background-color: rgb(247, 168, 211);
+  }
+  nav h1 {
+    font-size: 14px;
+  }
+  .tablaGrid {
+    background-color: rgb(127, 127, 219);
+  }
+  .contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+  }
+  .contenedor-textos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    background-color: rgb(247, 168, 211);
+  }
+  .espacio-btn {
+    margin-right: 20px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 900px) {
+  nav {
+    background-color: rgb(102, 186, 224);
+  }
+  .tablaGrid {
+    background-color: green;
+  }
+  .contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+  }
+  footer {
+    background-color: rgb(102, 186, 224);
+  }
+}
+
+@media (min-width: 901px) {
+  nav {
+    background-color: rgb(165, 122, 148);
+  }
+  .tablaGrid {
+    background-color: rgb(241, 66, 198);
+  }
+  footer {
+    background-color: rgb(146, 70, 115);
+  }
+}
