@@ -15,6 +15,15 @@ body {
   width: 100%;
   height: 100%;
 }
+nav {
+  background: -webkit-linear-gradient(
+    to right,
+    #f090d0,
+    #c471ed,
+    #90d2e0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f090d0, #c471ed, #90d2e0);
+}
 
 h1 {
   margin-top: 2%;
@@ -172,14 +181,15 @@ tr td:hover {
 .margingrid {
   margin-top: 50px;
 }
+
+footer {
+  background-color: #c471eda6;
+}
 footer p {
   color: rgb(65, 28, 55);
 }
 
 @media (max-width: 480px) {
-  nav {
-    background-color: rgb(247, 168, 211);
-  }
   nav h1 {
     font-size: 14px;
   }
@@ -196,9 +206,6 @@ footer p {
     flex-direction: column;
   }
 
-  footer {
-    background-color: rgb(247, 168, 211);
-  }
   .espacio-btn {
     margin-right: 20px;
     width: 100px;
@@ -206,9 +213,6 @@ footer p {
 }
 
 @media (min-width: 481px) and (max-width: 900px) {
-  nav {
-    background-color: rgb(102, 186, 224);
-  }
   .tablaGrid {
     background-color: green;
   }
@@ -217,19 +221,10 @@ footer p {
     flex-direction: column;
     margin-left: 0%;
   }
-  footer {
-    background-color: rgb(102, 186, 224);
-  }
 }
 
 @media (min-width: 901px) {
-  nav {
-    background-color: rgb(165, 122, 148);
-  }
   .tablaGrid {
     background-color: rgb(241, 66, 198);
-  }
-  footer {
-    background-color: rgb(146, 70, 115);
   }
 }

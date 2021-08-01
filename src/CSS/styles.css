@@ -127,7 +127,7 @@
   flex-direction: column;
   margin-left: 13%;
   width: 70%;
-  background-color: #f3eaf079;
+  background-color: #ffffff;
   border-radius: 5px;
   -webkit-box-shadow: -18px 43px 154px 32px rgba(0, 0, 0, 0.47);
   -moz-box-shadow: -18px 43px 154px 32px rgba(0, 0, 0, 0.47);
@@ -215,7 +215,7 @@ body {
   justify-content: space-evenly;
   margin-top: 1%; }
 
-@media (max-width: 480px) {
+@media (max-width: 1020px) {
   .botoes {
     display: inline-block; } }
 
@@ -230,6 +230,11 @@ body {
   background-color: #f7eef3;
   width: 100%;
   height: 100%; }
+
+nav {
+  background: -webkit-linear-gradient(to right, #f090d0, #c471ed, #90d2e0);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f090d0, #c471ed, #90d2e0); }
 
 h1 {
   margin-top: 2%;
@@ -344,12 +349,13 @@ tr td:hover {
 .margingrid {
   margin-top: 50px; }
 
+footer {
+  background-color: #c471eda6; }
+
 footer p {
   color: #411c37; }
 
 @media (max-width: 480px) {
-  nav {
-    background-color: #f7a8d3; }
   nav h1 {
     font-size: 14px; }
   .tablaGrid {
@@ -361,28 +367,18 @@ footer p {
   .contenedor-textos {
     display: flex;
     flex-direction: column; }
-  footer {
-    background-color: #f7a8d3; }
   .espacio-btn {
     margin-right: 20px;
     width: 100px; } }
 
 @media (min-width: 481px) and (max-width: 900px) {
-  nav {
-    background-color: #66bae0; }
   .tablaGrid {
     background-color: green; }
   .contenedor-principal {
     display: flex;
     flex-direction: column;
-    margin-left: 0%; }
-  footer {
-    background-color: #66bae0; } }
+    margin-left: 0%; } }
 
 @media (min-width: 901px) {
-  nav {
-    background-color: #a57a94; }
   .tablaGrid {
-    background-color: #f142c6; }
-  footer {
-    background-color: #924673; } }
+    background-color: #f142c6; } }
