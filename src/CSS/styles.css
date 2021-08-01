@@ -10,7 +10,8 @@
   overflow: hidden;
   position: relative;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  border-radius: 5px; }
 
 .snip1573 * {
   -webkit-box-sizing: border-box;
@@ -62,6 +63,7 @@
 .snip1573 h3 {
   background-color: #924673;
   border: 2px solid #fff;
+  border-radius: 5px;
   color: #fff;
   font-size: 1em;
   font-weight: 600;
@@ -148,7 +150,7 @@
 
 .snip1417 {
   border: none;
-  background-color: #5666a5;
+  background-color: #9c56a5;
   border-radius: 5px;
   color: #ffffff;
   cursor: pointer;
@@ -191,13 +193,13 @@
   bottom: 0px;
   left: 0px;
   right: 0px;
-  border: 5px solid #5666a5;
+  border: 5px solid #f78ef1;
   content: "";
   border-radius: inherit; }
 
 .snip1417:hover,
 .snip1417.hover {
-  background-color: #5666a5;
+  background-color: #f78ef1;
   color: #ffffff; }
 
 .snip1417:hover:before,
