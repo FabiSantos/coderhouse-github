@@ -71,8 +71,16 @@ body {
   margin-top: 1%;
 }
 
+.boton-proyectos {
+  display: flex;
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
 @media (max-width: 1020px) {
-  .botoes {
+  .botoes,
+  .boton-proyectos {
     display: inline-block;
   }
 }
