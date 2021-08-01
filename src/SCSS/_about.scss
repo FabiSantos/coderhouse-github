@@ -1,0 +1,49 @@
+.fondo-about {
+  width: 100%;
+  height: 100%;
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f090d0,
+    #c471ed,
+    #90d2e0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f090d0,
+    #c471ed,
+    #90d2e0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contenedor-about {
+  padding: 0.5 2% 2% 2%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13%;
+  width: 70%;
+  background-color: #f3eaf079;
+  border-radius: 5px;
+  -webkit-box-shadow: -18px 43px 154px 32px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: -18px 43px 154px 32px rgba(0, 0, 0, 0.47);
+  box-shadow: -18px 43px 154px 32px rgba(0, 0, 0, 0.47);
+}
+
+.margin-contacto {
+  margin-top: 1%;
+}
+
+.titulo-sobremi {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.titulo-sobremi p {
+  font-size: 16px;
+  color: #202324 !important;
+}
+
+@media (max-width: 480px) {
+}

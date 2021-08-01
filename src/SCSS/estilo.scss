@@ -1,4 +1,6 @@
 @import "cards";
+@import "about";
+@import "bottons-group";
 
 * {
   margin: 0%;
@@ -61,15 +63,9 @@ ul ul li {
   color: rgb(212, 94, 203);
 }
 
-#botoes {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 10%;
-}
-
-.titulo-sobremi {
-  margin-top: 5%;
-  margin-bottom: 5%;
+.caja-contacto {
+  width: 100vh;
+  align-items: center;
 }
 
 .contenedor-img-sobremi {
@@ -85,24 +81,24 @@ ul ul li {
   margin-bottom: 2%;
 }
 
-.margin-btn-sobremi {
-  margin-bottom: 4%;
-}
+// .margin-btn-sobremi {
+//   margin-bottom: 4%;
+// }
 
-.btn {
-  background-color: rgb(204, 205, 223);
-  color: rgb(114, 47, 97);
-  border-radius: 10px;
-  border: solid rgb(245, 108, 131) 3px;
-  padding: 6px;
+// .btn {
+//   background-color: rgb(204, 205, 223);
+//   color: rgb(114, 47, 97);
+//   border-radius: 10px;
+//   border: solid rgb(245, 108, 131) 3px;
+//   padding: 6px;
 
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
+//   padding-top: 3px;
+//   padding-bottom: 3px;
+// }
 
-.btn:hover {
-  border: solid rgb(202, 128, 202);
-}
+// .btn:hover {
+//   border: solid rgb(202, 128, 202);
+// }
 
 input,
 select,
@@ -110,18 +106,21 @@ textarea {
   border-radius: 5px;
   border: rgb(202, 128, 202) 3px solid;
   outline: none;
-  color: rgb(203, 233, 238);
+  color: rgb(133, 38, 117);
   background-color: transparent;
 }
-form {
-  margin: 1% 2% 2% 2%;
-  padding: 2%;
-}
+// form {
+//   width: 70vh;
+//   margin: 1% 2% 2% 2%;
+//   padding: 2%;
+//}
 
 fieldset {
   border-radius: 10px;
   border: rgb(134, 128, 133) solid 3px;
   color: rgb(116, 91, 112);
+  width: 60%;
+  margin-left: 20%;
 }
 
 legend {
