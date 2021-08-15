@@ -216,13 +216,12 @@ body {
 .botoes {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 1%; }
+  margin-bottom: 3%; }
 
 .boton-proyectos {
   display: flex;
   float: right;
-  margin-right: 50px;
-  margin-top: 30px; }
+  margin-right: 80px; }
 
 @media (max-width: 1020px) {
   .botoes,
@@ -259,7 +258,7 @@ h2 {
   padding-left: 4%; }
 
 h3 {
-  padding-bottom: 1.5%; }
+  margin-bottom: 1.5%; }
 
 p {
   padding: 2%;
@@ -322,7 +321,7 @@ legend {
 fieldset section {
   padding-top: 2%;
   padding-bottom: 2%;
-  margin-left: 2%; }
+  margin-left: 3%; }
 
 /* proyectos */
 table,
@@ -390,6 +389,9 @@ footer p {
 .margin-contacto {
   margin-top: 1%; }
 
+contacto-h3 h3 {
+  margin-bottom: 15%; }
+
 @media (max-width: 480px) {
   nav h1 {
     font-size: 14px; }
@@ -407,11 +409,15 @@ footer p {
     width: 100px; }
   .display-none {
     display: none; }
+  fieldset {
+    border: none; }
+  fieldset section {
+    margin-left: 1%; }
   .contenedor-contacto {
-    width: 100%;
-    height: 70%; }
+    width: 80%;
+    margin-left: 10%; }
   textarea {
-    width: 60%;
+    width: 100%;
     height: 40%; } }
 
 @media (min-width: 481px) and (max-width: 900px) {
@@ -427,4 +433,6 @@ footer p {
 
 @media (min-width: 901px) {
   .tablaGrid {
-    background-color: #f142c6; } }
+    background-color: #f142c6; }
+  .contenedor-contacto {
+    width: 70%; } }
