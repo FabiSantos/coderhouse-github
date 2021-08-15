@@ -410,9 +410,8 @@ contacto-h3 h3 {
   .display-none {
     display: none; }
   fieldset {
-    border: none; }
-  fieldset section {
-    margin-left: 1%; }
+    border: none;
+    margin-left: 10%; }
   .contenedor-contacto {
     width: 80%;
     margin-left: 10%; }
