@@ -20,17 +20,13 @@
   padding: 0.5 2% 2% 2%;
   display: flex;
   flex-direction: column;
-  margin-left: 13%;
+  margin-left: 17%;
   width: 70%;
   background-color: #ffffff;
   border-radius: 5px;
   -webkit-box-shadow: -18px 43px 154px 32px rgba(0, 0, 0, 0.47);
   -moz-box-shadow: -18px 43px 154px 32px rgba(0, 0, 0, 0.47);
   box-shadow: -18px 43px 154px 32px rgba(0, 0, 0, 0.47);
-}
-
-.margin-contacto {
-  margin-top: 1%;
 }
 
 .titulo-sobremi {
@@ -46,4 +42,7 @@
 }
 
 @media (max-width: 480px) {
+  .contenedor-about {
+    padding: 2%;
+  }
 }

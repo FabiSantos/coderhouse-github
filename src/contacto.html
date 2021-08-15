@@ -6,20 +6,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/styles.css" />
     <title>Mi Portafolio - contacto</title>
   </head>
 
-  <body class="fondo-about">
-    <div class="contenedor-about margin-contacto">
+  <body class="fondo-contacto">
+<div  >
+
+
     <h1>Déjame tus dados para contacto!</h1>
-    <form action="">
+    <div  class="contenedor-contacto">
+    <form action="" >
       <fieldset>
         <legend><strong>Informaciones</strong></legend>
-        <section>
+        <div class="row ">
+        <section class="col-6">
           <h3>Personal</h3>
           <label for="nombre"> Nombre:</label>
           <input type="text" name="nombre" />
+          <br>
+          <br>
           <label for="apellido"> Apellido:</label>
           <input type="text" name="apellido" />
           <br /><br />
@@ -33,7 +41,7 @@
           <input type="date" name="fecha" />
         </section>
 
-        <section>
+       <section  class="col-8">
           <h3>Localización</h3>
           <select name="paises">
             <option value="1">Seleccione tu pais:</option>
@@ -43,31 +51,37 @@
           </select>
           <br /><br />
           <input type="checkbox" name="acepta" value="1" />
-          <label for="acepta">Remoto temporalmente debido a pandemia</label>
+       Remoto temporalmente debido a pandemia
         </section>
-        <section>
+        <section  class="col-md-8">
           <h3>Tipo de trabajo</h3>
-          <input type="radio" name="conjunto" value="opción 1" />
-          Contrato Indefinido
-          <input type="radio" name="conjunto" value="opción 2" />
-          Proyecto
-          <input type="radio" name="conjunto" value="opción 3" />
-          Otro
+         
+            <input type="radio" name="conjunto" value="opción 1" />
+            Contrato Indefinido
+            <input type="radio" name="conjunto" value="opción 2" />
+            Proyecto
+            <input type="radio" name="conjunto" value="opción 3" />
+            Otro
+        
+       
         </section>
 
         <section>
           <label for="comentarios">Comentarios:</label><br />
-          <textarea name="comentarios" cols="60" rows="6"></textarea>
-        </section>
+          <textarea name="comentarios" cols="40" rows="6"></textarea>
+        </section> 
+
+      </div>
       </fieldset>
       <div class="botoes">
         <button type="submit" class="snip1417">Enviar</button>
         <button type="reset" class="snip1417">Limpiar</button>
       <a href="./index.html" class="snip1417"> Volver a Home</a>
       </div>
-    </div>
+    
     </form>
-   
+  </div>
+</div>
   </body>
 </html>
 a

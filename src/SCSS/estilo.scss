@@ -189,6 +189,48 @@ footer p {
   color: rgb(65, 28, 55);
 }
 
+// contacto
+
+.fondo-contacto {
+  width: 100%;
+  height: 100%;
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f090d0,
+    #c471ed,
+    #90d2e0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f090d0,
+    #c471ed,
+    #90d2e0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contenedor-contacto {
+  padding: 2%;
+  display: flex;
+  // flex-direction: column;
+  margin-left: 17%;
+  width: 70%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  -webkit-box-shadow: -18px 43px 154px 32px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: -18px 43px 154px 32px rgba(0, 0, 0, 0.47);
+  box-shadow: -18px 43px 154px 32px rgba(0, 0, 0, 0.47);
+}
+
+.margin-contacto {
+  margin-top: 1%;
+}
+// .radio-buttoms {
+//   display: flex;
+//   display: inline;
+// }
+
 @media (max-width: 480px) {
   nav h1 {
     font-size: 14px;
@@ -210,6 +252,19 @@ footer p {
     margin-right: 20px;
     width: 100px;
   }
+  .display-none {
+    display: none;
+  }
+
+  .contenedor-contacto {
+    width: 100%;
+    height: 70%;
+  }
+
+  textarea {
+    width: 60%;
+    height: 40%;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 900px) {
@@ -221,6 +276,15 @@ footer p {
     flex-direction: column;
     margin-left: 0%;
   }
+
+  textarea {
+    width: 70%;
+    height: 50%;
+  }
+
+  // fieldset {
+  //   border: none;
+  // }
 }
 
 @media (min-width: 901px) {
